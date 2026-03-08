@@ -1,4 +1,4 @@
-module cx
+module github.com/Lilong-maker/cx
 
 go 1.25.1
 
@@ -65,6 +65,7 @@ require (
 	github.com/spf13/pflag v1.0.10 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/tjfoc/gmsm v1.4.1 // indirect
+	github.com/yuhang-jieke/cms v0.0.2 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
 	go.uber.org/multierr v1.6.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect
