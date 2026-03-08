@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package proto;
+
+option go_package = "./";
+
+message OrderAddReq {
+  string name = 1;
+  fixed32 price = 2;
+  int64 num = 3;
+}
+
+message OrderAddResp {
+  string msg = 1;
+  int64 code =2;
+}
+
+service Order {
+  rpc OrderAdd(OrderAddReq) returns (OrderAddResp);
+}
